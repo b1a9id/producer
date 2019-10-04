@@ -1,0 +1,12 @@
+request:
+  method: GET
+  url: /brands
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    name: "STOF"
+    designer: "Tanita"
+  headers:
+    Content-Type: application/json;charset=UTF-8
