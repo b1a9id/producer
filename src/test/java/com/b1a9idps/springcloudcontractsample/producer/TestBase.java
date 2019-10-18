@@ -18,7 +18,7 @@ import io.restassured.module.mockmvc.RestAssuredMockMvc;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @DirtiesContext
 @AutoConfigureMessageVerifier
-public class TestBase {
+public abstract class TestBase {
 
     @Autowired
     private BrandController brandController;
