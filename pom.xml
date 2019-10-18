@@ -17,10 +17,6 @@
 	<properties>
 		<java.version>13</java.version>
 		<spring-cloud.version>Greenwich.SR3</spring-cloud.version>
-		<file>${project.build.directory}/${project.build.finalName}.${project.packaging}</file>
-		<groupId>${project.groupId}</groupId>
-		<artifactId>${project.artifactId}</artifactId>
-		<generatePom>true</generatePom>
 	</properties>
 
 	<dependencies>
