@@ -7,16 +7,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.b1a9idps.springcloudcontractsample.producer.dto.Brand;
+import com.b1a9idps.springcloudcontractsample.producer.dto.BrandListDto;
 
 @RestController
 @RequestMapping("/brands")
 public class BrandController {
 
     @GetMapping
-    public List<Brand> list() {
+    public BrandListDto list() {
         Brand stof = new Brand();
         stof.setName("STOF");
         stof.setDesigner("Tanita");
-        return List.of(stof);
+
+        BrandListDto listDto = new BrandListDto();
+        listDto.setBrands(List.of(stof));
+        return listDto;
     }
 }
