@@ -6,7 +6,7 @@ request:
 response:
   status: 200
   body:
-    name: "STOF"
-    designer: "Tanita"
+    - name: "STOF"
+      designer: "Tanita"
   headers:
     Content-Type: application/json;charset=UTF-8
