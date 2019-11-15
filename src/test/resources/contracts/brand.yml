@@ -5,9 +5,6 @@ request:
     Content-Type: application/json
 response:
   status: 200
-  body:
-    brands:
-      - name: "STOF"
-        designer: "Tanita"
+  bodyFromFile: brand_response.json
   headers:
     Content-Type: application/json
