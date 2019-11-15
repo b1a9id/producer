@@ -1,0 +1,17 @@
+= API Document
+
+[[Brand]]
+== Brand
+ブランドに関するAPI
+
+=== Get Brand List
+ブランドの一覧を返す
+
+==== Sample Request
+include::{snippets}/index/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/index/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/index/curl-request.adoc[]
