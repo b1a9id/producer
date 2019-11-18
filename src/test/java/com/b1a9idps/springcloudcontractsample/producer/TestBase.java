@@ -19,7 +19,6 @@ import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.docu
 @ExtendWith({RestDocumentationExtension.class, SpringExtension.class})
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @DirtiesContext
-@AutoConfigureMessageVerifier
 public abstract class TestBase {
 
     @BeforeEach
